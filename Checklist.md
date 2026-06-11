@@ -1,20 +1,25 @@
 # Git 학습 체크리스트
 
 ## Git 기본
-- [ ] Git
-- [ ] GitHub
-- [ ] Local Repository
-- [ ] Remote Repository
+- [X] Git
+- [X] GitHub
+- [X] Local Repository
+- [X] Remote Repository
 
 ## Git 명령어
-- [ ] gti add
-- [ ] git status
-- [ ] git switch
+- [X] git init
+- [X] git status
+- [X] git add
+- [X] git commit
+- [X] git push
+
 - [ ] git pull
 - [ ] git fetch
+- [ ] git switch
+- [ ] git checkout
 - [ ] git rebase
 - [ ] git cherry-pick
 
 ## GitHub
-- [ ] origin
+- [X] origin
 - [ ] pustream
