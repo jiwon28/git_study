@@ -282,3 +282,14 @@ git brabch feature/login
 브랜치는 새로운 폴더가 아닌 현재 시점의 코드를 기준으로 만드는 별도의 작업 공간이다.
 
 ---
+
+## git switch
+브랜치를 이동하는 명령어이다.
+
+### 사용 예시
+git swich feature/login
+
+### 실습 결과
+main 브랜치에서 feature/login 브랜치로 이동하였다.
+
+---
