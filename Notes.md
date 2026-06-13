@@ -359,6 +359,25 @@ git reset은 파일 내용을 삭제하지 않는다.
 Staging Area에서만 제거하며
 Working Tree의 내용은 그대로 유지된다.
 
+### 추가로 이해한 내용
+처음에는 git reset이 git add를 취소하는 명령어라 생각했지만,
+git reset은 사용 방법에 따라 동작이 다르다.
+
+#### git reset 파일명 
+- Staging Area에서 제거
+#### git reset --Soft HEAD~1
+- 마지막 Commit 제거
+- 파일 변경 내용 유지
+#### git reset --hard HEAD~1
+- 마지막 Commit 제거
+- 파일 변경 내용 삭제
+
+즉, git reset은 git add 취소뿐만 아니라 Commit을 되돌릴 때도 사용할 수 있다.
+
+++ 추가
+Git 입장에서는 HEAD 위치를 바꾼 것이고,
+사용자 입장에서는 마지막 Commit을 삭제한 것처럼 보인다.
+
 ---
 
 ## git revert
