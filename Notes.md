@@ -262,3 +262,23 @@ git branch feature/login
 feature/login 브랜치를 생성했다.
 
 ---
+
+## branch란?
+독립적으로 작업할 수 있는 작업 공간
+
+기존 코드에 영향을 주지 않고 새로운 기능을 개발하거나 버그를 수정할 때 사용한다.
+
+Ex.
+main
+--> feature/login
+
+작업 완료 후 main 브랜치에 병합(merge)할 수 있다.
+
+### 사용 예시
+git branch
+git brabch feature/login
+
+### 이해한 내용
+브랜치는 새로운 폴더가 아닌 현재 시점의 코드를 기준으로 만드는 별도의 작업 공간이다.
+
+---
