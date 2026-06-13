@@ -461,3 +461,93 @@ cherry-pick은 브랜치 전체를 가져오는 것이 아니다.
 원본 Commit과 Commit Hash가 다르게 생성된다.
 
 ---
+
+## merge, rebase, cherry-pick 비교
+세 명령어 모두 다른 브랜치의 작업을 가져오는 기능이지만,
+목적과 동작 방식이 다르다.
+
+### merge
+브랜치 전체를 현재 브랜치에 합친다.
+
+#### 사용 예시
+git switch main
+git merge feature/login
+
+### 이해한 내용
+feature/login 브랜치의 작업 내용을
+main 브랜치에 합칠 때 사용한다.
+
+## cherry-pick
+특정 Commit 하나만 현재 브랜치로 가져온다.
+
+### 사용 예시
+git cherry-pick 커밋해시
+
+### 이해한 내용
+브랜치 전체를 가져오는 것이 아니라
+원하는 Commit 하나만 선택하여 가져온다.
+
+기존 Commit을 그대로 가져오는 것이 아니라
+동일한 변경 내용을 가진 새로운 Commit을 생성한다.
+
+따라서 Commit Hash는 새롭게 생성된다.
+
+### 실습 결과
+feature/cherry-pick 브랜치
+git cherry-pick 학습
+↓
+main 브랜치
+git cherry-pick 학습
+
+동일한 내용이지만 서로 다른 Commit Hash를 확인하였다.
+
+## rebase
+현재 브랜치의 Commit을 다른 브랜치 최신 Commit 뒤로 이동한다.
+
+### 사용 예시
+git switch feature/rebase
+git rebase main
+
+### 이해한 내용
+현재 브랜치에서 실행한다.
+
+git rebase main 명령은
+현재 브랜치의 작업 내용을
+main 브랜치 최신 Commit 뒤로 이동시키는 의미이다.
+
+### 실습 결과
+main 브랜치와 feature/rebase 브랜치에서
+각각 작업을 수행한 후 rebase를 진행하였다.
+
+rebase 이후 feature/rebase 브랜치의 Commit이
+main 브랜치 최신 Commit 뒤로 이동한 것을 확인하였다.
+
+또한 Commit이 새로 생성되면서
+Commit Hash가 변경되는 것을 확인하였다.
+
+## merge와 rebase 차이
+- merge : 브랜치는 합친다.
+- rebase : 현재 브랜치 Commit의 위치를 이동한다.
+
+merge는 Merge Commit이 생성될 수 있으며,
+브랜치가 합쳐진 이력을 그대로 유지한다.
+
+rebase는 Commit 이력이 직선 형태로 정리된다.
+
+## merge와 cherry-pick 차이
+- merge : 브랜치 전체를 가져온다.
+- cherry-pick : 특정 Commit 하나만 가져온다.
+
+## rebase와 cherry-pick 차이
+- rebase : 현재 브랜치의 여러 Commit 위치를 이동한다.
+- cherry-pick : 선택한 Commit 하나를 현재 브랜치에 복사한다.
+
+### 현재 이해한 내용
+- merge : 브랜치 전체를 합친다.
+- cherry-pick : 원하는 Commit 하나만 복사한다.
+- rebase : 현재 브랜치 Commit을 다른 브랜치 최신 Commit 뒤로 이동한다.
+
+### 암기 포인트
+merge = 브랜치 전체 합치기
+cherry-pick = Commit 하나 복사
+rebase = Commit 위치 이동
