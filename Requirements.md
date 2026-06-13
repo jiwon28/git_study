@@ -55,7 +55,7 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 ---
 
 ## 추가 학습 예정
-
+- git revert
 - git rebase
 - git cherry-pick
 - upstream
