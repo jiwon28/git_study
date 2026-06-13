@@ -87,7 +87,7 @@ Staged
 Unmodified
 Commit 이후 수정되지 않은 상태
 
-Midified
+Modified
 Commit 이후 수정되었지만 아직 Staged 되지 않은 상태
 
 ### 상태 변화
@@ -276,7 +276,7 @@ main
 
 ### 사용 예시
 git branch
-git brabch feature/login
+git branch feature/login
 
 ### 이해한 내용
 브랜치는 새로운 폴더가 아닌 현재 시점의 코드를 기준으로 만드는 별도의 작업 공간이다.
@@ -287,7 +287,7 @@ git brabch feature/login
 브랜치를 이동하는 명령어이다.
 
 ### 사용 예시
-git swich feature/login
+git switch feature/login
 
 ### 실습 결과
 main 브랜치에서 feature/login 브랜치로 이동하였다.
@@ -310,7 +310,7 @@ feature/login 브랜치의 내용을 main 브랜치에 병합하였다.
 
 ### 실습 결과
 main 브랜치와 feature/login 브랜치에서
-READNE.md를 각각 수정한 후 merge를 수행하였다.
+README.md를 각각 수정한 후 merge를 수행하였다.
 merge 과정에서 Conflict가 발생하였다.
 
 ### 해결 방법
