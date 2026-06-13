@@ -50,3 +50,6 @@ main 브랜치 작업
 
 ## Rebase Test
 git rebase 실습
+
+## Cherry Pick Test
+git cherry-pick 실습
