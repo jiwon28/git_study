@@ -342,3 +342,21 @@ git switch와 동일하게 브랜치를 이동할 수 있다.
 과거에는 git checkout을 사용했지만 현재는 git switch 사용을 권장한다.
 
 ---
+
+## git reset
+Staging Area에 등록된 내용을 취소하는 명령어이다.
+
+### 사용 예시
+git reset README.md
+
+### 실습 결과
+git add로 등록한 REAME.md를
+Staging Area에서 제거하였다.
+
+### 이해한 내용
+git reset은 파일 내용을 삭제하지 않는다.
+
+Staging Area에서만 제거하며
+Working Tree의 내용은 그대로 유지된다.
+
+---

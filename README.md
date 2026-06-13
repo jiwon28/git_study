@@ -38,3 +38,6 @@ Git을 학습하고 정리하는 공간입니다.
 
 ## Feature Login Test
 feature/login 전용 commit
+
+## Reset Test
+git reset 실습
