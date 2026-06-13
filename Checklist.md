@@ -13,9 +13,16 @@
 - [X] git commit
 - [X] git push
 
-- [ ] git pull
-- [ ] git fetch
+- [x] git log
+- [x] git diff
+- [x] git remote
+- [x] git clone
+- [x] git fetch
+- [x] git pull
+
+- [ ] git branch
 - [ ] git switch
+- [ ] git merge
 - [ ] git checkout
 - [ ] git rebase
 - [ ] git cherry-pick

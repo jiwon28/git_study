@@ -26,6 +26,12 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 - [x] git commit 실행
 - [x] git log 실행
 
+- [x] git diff 실행
+- [x] git remote 실행
+- [x] git clone 실행
+- [x] git fetch 실행
+- [x] git pull 실행
+
 ### GitHub 연동
 
 - [x] GitHub 저장소 생성
@@ -36,9 +42,9 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 
 ## 추가 학습 예정
 
-- git pull
-- git fetch
+- git branch
 - git switch
+- git merge
 - git checkout
 - git rebase
 - git cherry-pick
