@@ -44,3 +44,6 @@ git reset 실습
 
 ## Revert Test
 git revert 실습
+
+## Main Update
+main 브랜치 작업
