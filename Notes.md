@@ -360,3 +360,27 @@ Staging Area에서만 제거하며
 Working Tree의 내용은 그대로 유지된다.
 
 ---
+
+## git revert
+특정 Commit을 취소하는 새로운 Commit을 생성하는 명령어이다.
+
+### 사용 예시
+git revert HEAD
+
+### 실습 결과
+git revert 학습 Commit 생성
+이후
+git revert Head 명령어 실행
+
+이는 명령어를 실행하여 해당 Commit을 취소하는 Commit을 생성하였다.
+
+### 이해한 내용
+git revert는 기존 Commit을 삭제하지 않는다.
+대신 특정 Commit을 취소하는 새로운 Commit을 생성한다.
+실습 결과
+git revert 학습
+↓
+Revert "git revert 학습"
+형태의 Commit이 생성되는 것을 확인하였다.
+
+---

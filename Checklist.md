@@ -27,6 +27,7 @@
 
 - [X] git checkout
 - [X] git reset
+- [x] git revert
 
 - [ ] git rebase
 - [ ] git cherry-pick
