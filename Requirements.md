@@ -32,11 +32,24 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 - [x] git fetch 실행
 - [x] git pull 실행
 
+- [x] git branch 실행
+- [x] git switch 실행
+- [x] git merge 실행
+
+- [x] git checkout 실행
+
 ### GitHub 연동
 
 - [x] GitHub 저장소 생성
 - [x] origin 연결
 - [x] git push 성공
+
+### 브랜치 실습
+
+- [x] feature/login 브랜치 생성
+- [x] 브랜치 이동
+- [x] merge 수행
+- [x] merge conflict 해결
 
 ---
 
@@ -45,7 +58,6 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 - git branch
 - git switch
 - git merge
-- git checkout
 - git rebase
 - git cherry-pick
 - upstream

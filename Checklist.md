@@ -25,7 +25,7 @@
 - [X] git merge
 - [X] merge conflict 해결
 
-- [ ] git checkout
+- [X] git checkout
 - [ ] git rebase
 - [ ] git cherry-pick
 

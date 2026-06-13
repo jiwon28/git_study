@@ -326,3 +326,19 @@ Merge Conflict는 오류가 아니라
 개발자가 직접 최종 내용을 선택해야 한다.
 
 ---
+
+## git checkout
+브랜치를 이동하는 명령어이다.
+
+### 사용 예시
+git checkout feature/login
+git checkout main
+
+### 실습 결과
+main 브랜치와 feature/login 브랜치 사이를 이동하였다.
+
+### 이해한 내용
+git switch와 동일하게 브랜치를 이동할 수 있다.
+과거에는 git checkout을 사용했지만 현재는 git switch 사용을 권장한다.
+
+---
