@@ -13,8 +13,6 @@ Git을 학습하고 정리하는 공간입니다.
 - Docker 학습 준비
 
 ## 학습 기록
-
-### Day 1
 - Git 저장소 생성
 - GitHub 저장소 연결
 - git add 실습
@@ -23,3 +21,13 @@ Git을 학습하고 정리하는 공간입니다.
 
 - git log 실습
 - git diff 실습
+- git remote 실습
+- git clone 실습
+- git fetch 실습
+- git pull 실습
+
+## Feature Login
+브랜치 실습 중
+
+## Feature Login Test
+feature/login 전용 commit
