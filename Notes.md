@@ -188,3 +188,28 @@ Git Credential Manager를 이용하여 GitHub 계정 인증을 진행하였다.
 ## 결과
 git push -u origin main
 명령을 성공적으로 수행하여 GitHub 저장소에 업로드하였다.
+
+---
+
+## git log
+Commit 기록을 확인하는 명령어이다.
+
+### 사용 예시
+git log
+git log --oneline
+
+### 실습 결과
+현재까지 생성된 Commit 목록을 확인
+
+---
+
+## git diff
+파일 수정 전후 차이를 확인하는 명령어이다.
+
+### 사용 예시
+git diff
+
+### 실습 결과
+README.md 수정 후 변경 내용을 확인하였다.
+
+---

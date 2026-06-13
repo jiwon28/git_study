@@ -20,3 +20,6 @@ Git을 학습하고 정리하는 공간입니다.
 - git add 실습
 - git commit 실습
 - git push 실습
+
+- git log 실습
+- git diff 실습
