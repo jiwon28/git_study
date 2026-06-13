@@ -41,3 +41,6 @@ feature/login 전용 commit
 
 ## Reset Test
 git reset 실습
+
+## Revert Test
+git revert 실습
