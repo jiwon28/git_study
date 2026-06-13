@@ -247,3 +247,18 @@ GitHub 저장소를 새로운 폴더에 복제하였다.
 fetch + merge와 동일한 역할을 수행한다.
 
 ---
+
+## git branch
+브랜치를 생성하거나 확인하는 명령어이다.
+
+### 사용 예시
+** 어떤 branch가 있는지 확인
+git branch
+
+** 브랜치 생성
+git branch feature/login
+
+### 실습 결과
+feature/login 브랜치를 생성했다.
+
+---
