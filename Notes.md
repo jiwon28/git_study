@@ -91,28 +91,28 @@ Midified
 Commit 이후 수정되었지만 아직 Staged 되지 않은 상태
 
 ### 상태 변화
-새 파일 생성 
+새 파일 생성
 ↓
-Untracked 
-↓ 
-git add 
-↓ 
-Staged 
-↓ 
-git commit 
-↓ 
-Unmodified 
-↓ 
-파일 수정 
-↓ 
-Modified 
-↓ g
-it add 
-↓ 
-Staged 
-↓ 
-git commit 
-↓ 
+Untracked
+↓
+git add
+↓
+Staged
+↓
+git commit
+↓
+Unmodified
+↓
+파일 수정
+↓
+Modified
+↓
+git add
+↓
+Staged
+↓
+git commit
+↓
 Unmodified
 
 ---
