@@ -293,3 +293,36 @@ git swich feature/login
 main 브랜치에서 feature/login 브랜치로 이동하였다.
 
 ---
+
+## git merge
+브랜치의 작업 내용을 현재 브랜치에 합치는 명령어이다.
+
+### 사용 예시
+git merge feature/login
+
+### 실습 결과
+feature/login 브랜치의 내용을 main 브랜치에 병합하였다.
+
+---
+
+## Merge Conflict
+같은 파일의 같은 부분을 서로 수정한 경우 발생하는 충돌이다. 
+
+### 실습 결과
+main 브랜치와 feature/login 브랜치에서
+READNE.md를 각각 수정한 후 merge를 수행하였다.
+merge 과정에서 Conflict가 발생하였다.
+
+### 해결 방법
+충돌 내용을 확인한다.
+원하는 내용으로 수정한다.
+저장 후 아래 명령어를 실행한다.
+git add README.md
+git commit
+
+### 이해한 내용
+Merge Conflict는 오류가 아니라
+어떤 내용을 최종으로 사용할지 Git이 결정할 수 없을 때 발생한다.
+개발자가 직접 최종 내용을 선택해야 한다.
+
+---

@@ -26,6 +26,11 @@ Git을 학습하고 정리하는 공간입니다.
 - git fetch 실습
 - git pull 실습
 
+- git branch 실습
+- git switch 실습
+- git merge 실습
+- merge conflict 해결
+
 ## Feature Login
 브랜치 실습 중
 

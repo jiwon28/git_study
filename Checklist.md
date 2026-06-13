@@ -20,9 +20,11 @@
 - [x] git fetch
 - [x] git pull
 
-- [ ] git branch
-- [ ] git switch
-- [ ] git merge
+- [X] git branch
+- [X] git switch
+- [X] git merge
+- [X] merge conflict 해결
+
 - [ ] git checkout
 - [ ] git rebase
 - [ ] git cherry-pick
