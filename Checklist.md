@@ -29,8 +29,7 @@
 - [X] git reset
 - [x] git revert
 - [X] git rebase
-
-- [ ] git cherry-pick
+- [X] git cherry-pick
 
 ## GitHub
 - [X] origin

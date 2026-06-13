@@ -442,3 +442,22 @@ rebase 중 Conflict가 발생하면 작업이 중단된다.
 충돌을 해결한 후 git rebase -continue 명령어를 실행해야 나머지 rebase 작업이 계속 진행된다.
 
 ---
+
+## git cherry-pick
+특정 Commit 하나를 현재 브랜치로 가져오는 명령어이다.
+
+### 사용 예시
+git cherry-pick 커밋해시
+
+### 실습 결과
+feature/cherry-pick 브랜치에서 생성한 Commit을 Main 브랜치로 가져왔다.
+
+### 이해한 내용
+cherry-pick은 브랜치 전체를 가져오는 것이 아니다.
+
+특정 Commit 하나만 선택하여 가져온다.
+
+가져오는 과정에서 새로운 Commit이 생성되므로
+원본 Commit과 Commit Hash가 다르게 생성된다.
+
+---
