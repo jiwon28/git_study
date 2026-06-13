@@ -403,3 +403,42 @@ Revert "git revert 학습"
 형태의 Commit이 생성되는 것을 확인하였다.
 
 ---
+
+## git rebase
+브랜치의 시작 위치를 다른 Commit 기준으로 변경하는 명령어이다.
+
+### 사용 예시
+git rebase main
+
+### 실습 결과
+feature/rebase 브랜치에서 git rebase main 명령어를 실행하였다.
+main 브랜치의 최신 Commit을 기준으로 feature/rebase 브랜치가 재배치되었다.
+
+### 이해한 내용
+git merge는 브랜치를 병합한다.
+git rebase는 브랜치의 시작 위치를 변경하여 Commit 기록을 한 줄로 정리한다.
+rebase 후에는 Commit Hash가 변경될 수 있다.
+
+---
+
+## Rebase Conflict
+rebase 중 같은 파일을 수정한 경우 발생하는 충돌이다.
+
+### 실습 결과
+main 브랜치와 feature/rebase 브랜치에서 README.md를 각각 수정한 후 rebase를 수행하였다.
+
+rebase 과정에서 Conflict가 발생하였다.
+
+### 해결 방법
+충돌 내용을 확인한다.
+원하는 내용으로 수정한다.
+저장 후 아래 명령어를 실행한다.
+git add README.md
+git rebase --continue
+
+### 이해한 내용
+rebase 중 Conflict가 발생하면 작업이 중단된다.
+
+충돌을 해결한 후 git rebase -continue 명령어를 실행해야 나머지 rebase 작업이 계속 진행된다.
+
+---

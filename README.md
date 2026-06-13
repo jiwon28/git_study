@@ -47,3 +47,6 @@ git revert 실습
 
 ## Main Update
 main 브랜치 작업
+
+## Rebase Test
+git rebase 실습

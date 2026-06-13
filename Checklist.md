@@ -28,8 +28,8 @@
 - [X] git checkout
 - [X] git reset
 - [x] git revert
+- [X] git rebase
 
-- [ ] git rebase
 - [ ] git cherry-pick
 
 ## GitHub

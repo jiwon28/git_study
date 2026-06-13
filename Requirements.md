@@ -39,6 +39,7 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 - [x] git checkout 실행
 - [x] git reset 실행
 - [x] git revert 실행
+- [x] git rebase 실행
 
 ### GitHub 연동
 
@@ -53,9 +54,12 @@ Git 기본 명령어를 사용하여 로컬 저장소와 GitHub 저장소를 연
 - [x] merge 수행
 - [x] merge conflict 해결
 
+- [x] feature/rebase 브랜치 생성
+- [x] rebase 수행
+- [x] rebase conflict 해결
+
 ---
 
 ## 추가 학습 예정
-- git rebase
 - git cherry-pick
 - upstream
